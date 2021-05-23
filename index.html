@@ -1,0 +1,132 @@
+<!-- HTML STARTS -->
+<!-- DOCTYPE SHOWS THAT IT IS HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD STARTS -->
+
+<head>
+  <!--METADATA VIEWPORT STARTS-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- METADATA VIEWPORT ENDS -->
+
+  <!-- TITLE STARTS -->
+  <!-- LINK FOR TITLE ICON STARTS -->
+  <link rel="shortcut icon" href="https://www.pngitem.com/pimgs/m/86-862236_m2m-one-sign-up-fill-up-form-icon.png" />
+  <!-- LINK FOR TITLE ICON ENDS -->
+  <title>Form</title>
+  <!-- TITLE ENDS -->
+
+  <!-- FONT AWESOME CDN LINK STARTS-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- FONT AWESOME CDN LINK ENDS-->
+
+  <!-- CSS FILE LINK STARTS-->
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS FILE LINK ENDS -->
+
+</head>
+<!-- HEAD ENDS -->
+
+<!-- BODY SECTION STARTS -->
+
+<body>
+  <div class="forms-section">
+    <div class="user-profile">
+      <span class="profile-logo-line"></span>
+      <i class="fas fa-user"></i>
+      <span class="profile-logo-line"></span>
+    </div>
+
+    <h2 class="white-heading signup_heading">Sign Up<h2>
+        <form class="form-container" onsubmit="return genderSelection()">
+          <div class="text-field">
+            <input type="text" id="usernames" placeholder="Full Name" autocomplete="off" autofocus required />
+            <div class="user-icons">
+              <span class="profile-icon">
+                <i class="fas fa-user"></i></span>
+            </div>
+          </div>
+          <h5 id="usercheck"></h5>
+
+          <div class="text-field">
+            <input type="email" placeholder="abcd@example.com" id="email" required />
+            <div class="user-icons">
+              <span class="profile-icon"><i class="fas fa-envelope"></i></span>
+            </div>
+          </div>
+          <h5 id="emailcheck"></h5>
+
+          <div class="text-field">
+            <input type="number" id="phonenumber" placeholder="Phone Number" required />
+            <div class="user-icons">
+              <span class="profile-icon"><i class="fas fa-mobile"></i></span>
+            </div>
+          </div>
+          <h5 id="phcheck"></h5>
+
+          <div class="text-field">
+            <input type="password" id="password" placeholder="Password" autocomplete="off" required />
+            <div class="user-icons">
+              <span class="profile-icon"><i class="fas fa-lock"></i></span>
+            </div>
+          </div>
+          <h5 id="passcheck"></h5>
+
+          <div class="text-field">
+            <input type="password" id="conpassword" placeholder="Confirm Password" autocomplete="off" required />
+            <div class="user-icons">
+              <span class="profile-icon"><i class="fas fa-lock"></i></span>
+            </div>
+          </div>
+          <h5 id="conpasscheck"></h5>
+
+          <div class="gender-opt">
+            <h3 class="white-heading">Gender :</h3>
+            <label><input type="radio" name="gender" id="male" value="Male" />Male</label>&nbsp; &nbsp;
+            <label><input type="radio" name="gender" id="female" value="Female" />Female</label>
+          </div>
+          <h5 id="gendercheck"></h5>
+
+          <div class="submit_btn">
+            <input type="submit" id="submitbtn" value="Sign Up">
+          </div>
+
+          <div class="separation">
+            <span class="profile-logo-line w-160"></span>
+            <span class="white-heading mr-right-0">or</span>
+            <span class="profile-logo-line w-160"></span>
+          </div>
+
+          <div>
+            <h3 class="white-heading">create account using social media</h3>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+
+            <a href="https://mail.google.com/" target="_blank"><i class="fab fa-google-plus"></i></a>
+
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </form>
+  </div>
+
+  <!-- Link for Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <!-- Link for External js -->
+  <script type="text/javascript" src="jquery.js">
+
+  </script>
+</body>
+<!-- Body Ends Herer -->
+
+</html>
+<!-- HTML Ends Here -->
